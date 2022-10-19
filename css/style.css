@@ -1,0 +1,179 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+:focus {
+  outline: 0;
+}
+ins {
+  text-decoration: none;
+}
+del {
+  text-decoration: line-through;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*     CODE     */
+* {
+  box-sizing: border-box;
+}
+body {
+  text-align: center;
+  background-color: #7b68ee;
+}
+header {
+  height: 70px;
+  padding: 20px;
+  background-color: #3d3d3d;
+  margin-bottom: 30px;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #fff;
+}
+div {
+  display: inline-block;
+}
+a {
+  display: inline-block;
+  height: 250px;
+  width: 250px;
+  margin: 30px 20px;
+  padding: 100px 0;
+
+  font-weight: 600;
+  font-size: 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+
+  border: 2px solid #000;
+  border-radius: 20px;
+  background-color: #9932cc;
+
+  transition: 500ms;
+}
+a:hover {
+  position: relative;
+  top: -30px;
+  border: 5px solid #000;
+  font-size: 0;
+  margin-bottom: 0;
+}
+.cuadrado a:hover {
+  background-image: url(../img/cuadrado.jpg);
+  background-position: center;
+}
+.rectangulo a:hover {
+  background-image: url(../img/rectangulo.jpg);
+  background-position: center;
+}
+.triangulo a:hover {
+  background-image: url(../img/triangulo.jpg);
+  background-position: center;
+}
+.romboide a:hover {
+  background-image: url(../img/romboide.jpg);
+  background-position: center;
+}
+.rombo a:hover {
+  background-image: url(../img/rombo.jpg);
+  background-position: center;
+}
+.trapecio a:hover {
+  background-image: url(../img/trapecio.jpg);
+  background-position: center;
+}
+.circulo a:hover {
+  background-image: url(../img/circulo.jpg);
+  background-position: center;
+}
